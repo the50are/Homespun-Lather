@@ -1,0 +1,174 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script&display=swap');
+#top {
+  }
+@media(min-width: 800px) {
+#header {
+  color: #15223C;
+  background: url("https://i.postimg.cc/vT8xDtgJ/7045.jpg");
+  font-size: 38px;
+  font-family: Petit Formal Script, cursive;
+  transform-font: uppercase;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  position: fixed;
+  top: 0;
+}
+#header-img {
+    width: 120px;
+    height: 108px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    background-color: #FEFCE9;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 5px 5px rgba(0,0,0,0.23);
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+#nav-bar {
+  font-size: 13px;
+}
+.nav-link {
+  color: #B7A243;
+}
+h2 {
+  font-family: Petit Formal Script, cursive;
+  color: #15223C;
+}
+  #about {
+    background-color: #F4ECFE;
+    color: #15223C;
+    height: 60px;
+  }
+  #media {
+    background-color: #FFECD6;
+    height: 60px;
+  }
+  #products {
+    background-color: #ECFFE9;
+    height: 60px;
+  }
+  #contact {
+    background-color: #F5E9CD;
+    height: 60px;
+  }
+#wrapper {
+  color: #15223C;
+  background-color: #FBF4E4;
+}
+.fullCard {
+    width: 89%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    background-color: #15223C;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 5px 5px rgba(0,0,0,0.23);
+  display: flex;
+  flex-direction: column;
+}
+.fullCardtwo {
+    width: 99%;
+    height: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+    background-color: #FEFCE9;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 5px 5px rgba(0,0,0,0.23);
+  margin-top: 133px;
+  display: flex;
+  flex-direction: column;
+  font-family: ;
+}
+.halfCard {
+      width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 1px;
+    background-color: #FEFCE9;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 5px 5px rgba(0,0,0,0.23);
+  display: flex;
+  flex-direction: column;
+}
+#about {
+  padding-top: 00px;
+}
+  #soap {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 450px 450px 450px;
+    grid-gap: 30px 50px;
+  }
+}
+</style>
+<!DOCTYPE html>
+<html>
+<div>
+  <h1 id="header" class="fullCard">Homespun Lather
+  <a ref="https://www.freepik.com/free-photo/brown-texture_997235.htm#page=1&query=kraft%20paper&position=30">
+    <a href='https://postimages.org/' target='_blank'><img id="header-img" src='https://i.postimg.cc/1X8jqTd6/ECFED5-ED-F1-FF-4-C1-C-B3-DF-331610-D9-FA90.jpg' border='0' alt='ECFED5-ED-F1-FF-4-C1-C-B3-DF-331610-D9-FA90'/></a>
+    <nav id="nav-bar" class="halfCard">
+    <ul>
+      <a class="nav-link" href="#header">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#products">Products</a>
+      <a class="nav-link" href="#media">Media</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </ul>
+  </nav>
+  </h1>  
+</div>  
+<div class="fullCardtwo">
+<h2 id="about">About</h2>
+<p1>WELCOME TO HOMESPUN LATHER!</p1><br>
+  <p2>At Homespun Lather, I create cold process soaps in small batches that contain natural ingredients you can feel confident putting on your skin. I believe the things you put on your body are just as important as the things you put in your body.
+
+My soaps do not contain artificial fragrances, colorants, preservatives, or other fillers. In fact, many of the ingredients in my soaps are things I would feel confident feeding my family (before they become soap, of course).</p2>
+<h2 id="products">Products</h2>
+  <div id="soap">
+  <h3>
+  <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/zBSZ09Dg/s714454819265483073-p1-i1-w2560.jpg' border='0' alt='s714454819265483073-p1-i1-w2560'/></a>
+    <p>Lavender + Tea Tree</p>
+    <p>$7</p>
+  </h3>
+  <h3>
+    <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/pLmZfDrK/s714454819265483073-p2-i1-w1280.jpg' border='0' alt='s714454819265483073-p2-i1-w1280'/></a>
+    <p>Oats + Honey Soap</p>
+    <p>$7</p>
+    <h3>
+      <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/Hn1zQCtq/Tea-Tree-Lavender.jpg' border='0' alt='Tea-Tree-Lavender'/></a>
+      <p>Tea Tree + Lavender Soap</p>
+      <p>$7</p>
+    <h3>
+      <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/7YV9TdJR/Coffee-Peppermint.jpg' border='0' alt='Coffee-Peppermint'/></a>
+      <p>Coffee + Peppermint Soap</p>
+      <p>$7</p>
+    <h3>
+      <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/63nL6mNY/Eucalyptus.jpg' border='0' alt='Eucalyptus'/></a>
+      <p>Eucalyptus Soap</p>
+      <p>$7</p>
+    <h3>
+      <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/CMCHWX7K/Green-Tea-Eucalyptus.jpg' border='0' alt='Green-Tea-Eucalyptus'/></a>
+      <p>Green Tea + Eucalyptus Soap</p>
+    <h3>
+      <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/xjPMsHjJ/Oats-Honey-Peppermint.jpg' border='0' alt='Oats-Honey-Peppermint'/></a>
+      <p>Oats + Honey + Peppermint Soap</p>
+      <p>$7</p>
+    <h3>
+      <a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/50VQg9ZS/Pumpkin-Spice.jpg' border='0' alt='Pumpkin-Spice'/></a>
+      <p>Pumpkin Spice Soap</p>
+      <p>$7</p>
+    </div>
+        <h2 id="media">Media</h2>
+  <br><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/WHH3-snQ1b4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2 id="contact">Contact</h2>
+<p2>Feel free to send us an email</p2>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input id="email" type="email" name="email" placeholder="awesomesauce@whatevermail.com" required>
+    <input id="submit" type="submit"></input>
+    </form>
+</html>
